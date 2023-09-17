@@ -2,3 +2,4 @@
 
 
 bash shell scripting
+all
