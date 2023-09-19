@@ -6,4 +6,4 @@ y=true
 name=devops
 
 #how to access a variable with the use of $ sign
-echo value of a = $y
+echo value of a = $name
