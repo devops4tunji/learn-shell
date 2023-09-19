@@ -1,5 +1,5 @@
 #declaring a function
 
-abc () {
+abc() {
   echo hello world
 }
