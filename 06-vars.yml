@@ -15,8 +15,8 @@
   tasks:
   - name: print hello world 5
     ansible.builtin.debug:
-     msg: "{{ url }}"
-     vars:
+      msg: "{{ url }}"
+    vars:
        url: www.gunners.com
 
   - name: print hello world
