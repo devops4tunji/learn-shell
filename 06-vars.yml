@@ -1,5 +1,5 @@
 - name: demo of a variable
-  hsts: localhost
+  hosts: localhost
   tasks:
     - name: print hello world
       ansible.builtin.debug:
