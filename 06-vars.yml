@@ -16,3 +16,6 @@
   - name: print hello world
     ansible.builtin.debug:
      msg: "{{ url }}"
+  - name: print hello world
+    ansible.builtin.debug:
+     msg: hello world
