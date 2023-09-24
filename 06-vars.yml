@@ -17,7 +17,7 @@
     ansible.builtin.debug:
      msg: "{{ url }}"
      vars:
-       url: www.arsenal.com
+       url: www.gunners.com
 
   - name: print hello world
     ansible.builtin.debug:
