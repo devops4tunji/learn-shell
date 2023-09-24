@@ -11,11 +11,14 @@
 - name: demo of a variable
   hosts: localhost
   vars:
-   url: www.arsenal.com
+   url: www.gunners.com
   tasks:
-  - name: print hello world
+  - name: print hello world 5
     ansible.builtin.debug:
      msg: "{{ url }}"
+     vars:
+       url: www.arsenal.com
+
   - name: print hello world
     ansible.builtin.debug:
-     msg: hello world 2
+     msg: hello world 4
