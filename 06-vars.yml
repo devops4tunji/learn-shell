@@ -8,11 +8,11 @@
       ansible.builtin.debug:
        msg: what is my name
 
-    - name: demo of a variable
-      hosts: localhost
-      vars:
-        url: www.arsenal.com
-      tasks:
-        - name: print hello world
-          ansible.builtin.debug:
-            msg: "{{ url }}"
+- name: demo of a variable
+  hosts: localhost
+  vars:
+   URL: www.arsenal.com
+  tasks:
+  - name: print hello world
+    ansible.builtin.debug:
+    msg: "{{ url }}"
