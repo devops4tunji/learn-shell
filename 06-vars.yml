@@ -7,3 +7,11 @@
     - name: print my name
       ansible.builtin.debug:
        msg: what is my name
+
+    - name: demo of a variable
+      hosts: localhost
+      vars: www.arsenal.com
+      tasks:
+        - name: print hello world
+          ansible.builtin.debug:
+            msg: "{{ url }}"
