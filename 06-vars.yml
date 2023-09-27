@@ -24,8 +24,8 @@
      msg: hello world 4
 
   - name: print hello world 5
-  ansible.builtin.debug:
-    msg: "{{ url }}"
+    ansible.builtin.debug:
+     msg: "{{ url }}"
 
 - name: demo of a roles variable
   hosts: localhost
