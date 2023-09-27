@@ -22,3 +22,10 @@
   - name: print hello world
     ansible.builtin.debug:
      msg: hello world 4
+
+- name: demo of a roles variable
+  hosts: localhost
+  roles:
+    - demo
+
+
