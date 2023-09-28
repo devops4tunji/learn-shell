@@ -16,9 +16,9 @@ echo $free_percentage
 #>70 – red
 
 If [ $used_percentage -lt 50]; then
- Echo Mem stat is green
+ echo  Mem stat is green
 elif [$used_percentage -lt 70]; then
-Echo Mem stat is orange
+ echo  Mem stat is orange
 else
-Echo Mem stat is red
+ echo Mem stat is red
 fi
